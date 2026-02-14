@@ -1,76 +1,25 @@
-# ToeXhek - DSA Sorting Adventure Game
+# University Projects Portfolio
 
-**ToeXhek** is a fun two-player number guessing game built in Java with Swing GUI.  
-After the game, your guesses are sorted using five classic sorting algorithms — and you can compare their execution times!
+Welcome to my GitHub repository showcasing all my university projects! This repo serves as a centralized collection of the work I've completed during my studies. Each project demonstrates different skills, technologies, and concepts I've learned across various courses.
 
-## Gameplay
+## About Me
+I'm Muhammad Ahmed, a student from Karachi, Sindh, Pakistan.
 
-- **Player 1** sets a secret **4-digit number** (0000–9999)
-- **Player 2** has **10 attempts** to guess it
-- Feedback after each guess based on absolute difference (distance):
-  - Exact match → **Correct! Brilliant!!**
-  - Very close → **Near of it!! Come Closer 😉**
-  - Moderately close → **High! or Low! But Near!!**
-  - Far → **Far Enough!! 🤔**
-- No duplicate guesses allowed
+## Projects Overview
+Below is a list of all the projects in this repository. Each one includes a brief description, the technologies used, and key learnings. Click on the project folder links to view the code and details.
 
-At the end:
-- See win/loss result + secret number (if lost)
-- Sort guesses by **distance** (farthest → closest)
-- Compare real sorting times (in microseconds) for:
-  - Bubble Sort
-  - Insertion Sort
-  - Selection Sort
-  - Merge Sort
-  - Quick Sort
+### 1. ToeXhek - DSA Sorting Adventure Game
+   - **Description**: A fun two-player number guessing game where Player 1 sets a secret 4-digit number, and Player 2 guesses it with feedback based on distance; at the end, guesses are sorted using five algorithms (Bubble, Insertion, Selection, Merge, Quick) with execution time comparisons, featuring a GTA-style dark theme, intro sequence, and persistent history in MySQL.
+   - **Technologies Used**: Java 17+, Swing (GUI), MySQL + JDBC, Maven, JUnit 5 (testing).
+   - **Key Learnings**: Implementing and comparing classic sorting algorithms for efficiency, building interactive GUIs with Swing and CardLayout, integrating database operations for game history persistence, and writing unit tests with JUnit.
 
-## Features
+## Technologies Stack
+Across all projects, I've worked with:
+- Programming Languages: Java.
+- Frameworks/Libraries: JavaFX and Swing.
+- Tools: Git, VS Code, IntelliJ, etc.
 
-- GTA-style dark theme with rounded buttons
-- Intro sequence
-- Persistent game history in **MySQL**
-- Option to clear all history
-- Clean CardLayout-based UI
+## Contact
+If you have questions or feedback, reach out to me on GitHub.
 
-## Technologies
-
-- **Java 17+**
-- **Swing** (GUI)
-- **MySQL** + JDBC
-- **Maven**
-- **JUnit 5** (testing)
-
-## Prerequisites
-
-- Java JDK 17 or higher
-- Maven (wrapper included)
-- MySQL Server 8.0+ running locally (port 3306)
-
-## Setup
-
-1. Clone the repository
-   ```bash
-   git clone <repository-url>
-   cd ToeXhek
-
-   com.dinorunner.toexhek
-├── ToeXhek.java              # Main entry
-├── GameFrame.java            # Screen manager (CardLayout)
-├── panels/
-│   ├── MenuPanel.java
-│   ├── IntroPanel.java
-│   ├── Player1Panel.java
-│   ├── Player2Panel.java
-│   └── EndPanel.java
-├── GameData.java
-├── History.java              # Database operations
-├── sorting/
-│   ├── BubbleSort.java
-│   ├── InsertionSort.java
-│   ├── SelectionSort.java
-│   ├── MergeSort.java
-│   ├── QuickSort.java
-│   └── Sorter.java
-└── ui/
-    ├── RoundedButton.java
-    └── RoundedBorder.java
+Thanks for visiting!
